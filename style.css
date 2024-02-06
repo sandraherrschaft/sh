@@ -47,7 +47,7 @@ html {
   padding: 10px;
   margin: auto;
   bottom: 0;
-  background-color:  rgb(140, 143, 149);
+  background-color: rgb(140, 143, 149);
   height: 8%;
 }
 
@@ -117,6 +117,14 @@ ul li {
   text-align: left;
 }
 
+.p_name {
+  padding-right: 1em;
+}
+
+.contact_div {
+  padding-right: 5px;
+}
+
 .main_container p {
   margin: 0;
   line-height: 2;
@@ -178,7 +186,7 @@ ul li {
 
 .info .link:hover {
   color: black;
-  background:  rgb(82, 136, 244);
+  background: rgb(82, 136, 244);
 }
 
 /* .image {
@@ -190,12 +198,12 @@ ul li {
 
 
 .bewerbungsbild_image {
-  position: absolute;
+  position: fixed;
   flex: 1;
-  max-width: 85%;
+  max-width: 45%;
   bottom: 0;
-  right: 8%;
-  max-height: 85%;
+  right: 0;
+  max-height: 80%;
   object-fit: cover;
 }
 
@@ -240,7 +248,7 @@ ul li {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 10px;
-  color:  rgb(82, 136, 244);
+  color: rgb(82, 136, 244);
 }
 
 .timeline-content h2 {
@@ -318,16 +326,13 @@ ul li {
   text-align: left;
   font-size: 30px;
   padding: 15px;
-  
+
 }
 
-.image-links-container p{
+.image-links-container p {
   font-size: 15px;
- 
+
 }
-
-
-
 
 
 @media only screen and (min-width: 800px) {
@@ -389,7 +394,7 @@ ul li {
   }
 
   .timeline ul li:hover::before {
-    background-color:  rgb(82, 136, 244);
+    background-color: rgb(82, 136, 244);
   }
 
   .timeline .tab {
@@ -427,6 +432,7 @@ ul li {
 
   .bewerbungsbild_image {
     height: auto;
+    width: 40%;
   }
 
   .main_container p {
@@ -470,7 +476,7 @@ ul li {
 
   .bewerbungsbild_image {
     height: auto;
-
+    width: 40%;
   }
 
   .timeline-content .date {
